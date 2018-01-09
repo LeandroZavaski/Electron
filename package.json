@@ -2,9 +2,9 @@
   "name": "Electron",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/LeandroZavaski/Electron/issues"
   },
-  "homepage": "https://github.com/LeandroZavaski/Electron#readme"
+  "homepage": "https://github.com/LeandroZavaski/Electron#readme",
+  "devDependencies": {
+    "electron": "1.7.10"
+  }
 }
