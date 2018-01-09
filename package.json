@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/LeandroZavaski/Electron#readme",
   "devDependencies": {
-    "electron": "1.7.10"
+    "electron": "1.7.10",
+    "electron-reload": "^1.2.2"
+  },
+  "dependencies": {
+    "axios": "^0.17.1"
   }
 }
