@@ -1,4 +1,4 @@
-require('electron-reload')(__dirname)
+/* require('electron-reload')(__dirname) */
 const { app, BrowserWindow, Menu } = require('electron')
 const path = require('path')
 const url = require('url')
@@ -22,7 +22,7 @@ function createWindow() {
     }))
 
     // Open the DevTools.
-    /* win.webContents.openDevTools() */
+  /*   win.webContents.openDevTools() */
 
     // Emitted when the window is closed.
     win.on('closed', () => {

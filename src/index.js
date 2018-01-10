@@ -11,7 +11,8 @@ var targetPrice = document.getElementById('targetPrice');
 
 const notification = {
     title: 'BTC Alert',
-    body: 'BTC just beat your target price!'
+    body: 'BTC just beat your target price!',
+    icon: path.join(__dirname, '../assets/images/btc.png')
 }
 
 function getBTC() {
@@ -23,6 +24,10 @@ function getBTC() {
             // Add this:
             if (targetPrice.innerHTML != '' && targetPriceVal < res.data.BTC.USD) {
                 const myNotification = new window.Notification(notification.title, notification)
+            }
+
+            myNotification.onclick = () => {
+                console.log('clicked')
             }
         })
 }
