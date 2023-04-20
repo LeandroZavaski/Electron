@@ -22,7 +22,7 @@
   "homepage": "https://github.com/LeandroZavaski/Electron#readme",
   "devDependencies": {
     "electron": "1.7.10",
-    "electron-packager": "^10.1.1",
+    "electron-packager": "^17.1.1",
     "electron-reload": "^1.2.2"
   },
   "dependencies": {
